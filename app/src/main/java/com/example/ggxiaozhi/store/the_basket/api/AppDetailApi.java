@@ -15,7 +15,7 @@ import rx.Observable;
 /**
  * 工程名 ： BaiLan
  * 包名   ： com.example.ggxiaozhi.store.the_basket.api
- * 作者名 ： 志先生_
+ * 作者名 ： 志先生
  * 日期   ： 2017/9/25
  * 时间   ： 14:42
  * 功能   ：
