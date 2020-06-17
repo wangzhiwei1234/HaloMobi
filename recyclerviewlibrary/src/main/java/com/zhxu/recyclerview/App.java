@@ -1,6 +1,7 @@
 package com.zhxu.recyclerview;
 
 import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 
 /**
  * <p>Description:
@@ -8,7 +9,7 @@ import android.app.Application;
  * @author xzhang
  */
 
-public class App extends Application {
+public class App extends MultiDexApplication {
 
     private static App context ;
 

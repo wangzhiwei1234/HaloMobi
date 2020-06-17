@@ -22,6 +22,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.zhxu.recyclerview.App;
+import com.zhxu.recyclerview.R;
 
 /**
  *
@@ -102,12 +103,8 @@ public class ViewHolder extends RecyclerView.ViewHolder {
     public ViewHolder setImageUrl(int viewId, String url) {
         ImageView view = getView(viewId);
         Glide.with(App.getContext()).load(url).into(view) ;
-
         return this;
     }
-
-
-
 
     public ViewHolder setImageBitmap(int viewId, Bitmap bitmap) {
         ImageView view = getView(viewId);
